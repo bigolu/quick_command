@@ -38,3 +38,4 @@ def get_db_filename():
     db_filename = str(db_file)
 
     return db_filename
+

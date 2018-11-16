@@ -6,7 +6,8 @@ from fuzzywuzzy import fuzz
 
 class QCDB(object):
     """
-    Persistant KV Store <command, description>
+    KV Store <command, description>
+    e.g. 'tar -xvf test.tar' => 'extract a tar file'
     """
     def __init__(self, path_to_db):
         self.db = pickledb.load(path_to_db, True)
@@ -42,3 +43,4 @@ class QCDB(object):
             return True
 
         return False
+
