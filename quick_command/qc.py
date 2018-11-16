@@ -1,8 +1,9 @@
-import click
-from quick_command.qcdb import QCDB
-from quick_command.util import print_msg_error, print_msg_success, print_cmds, print_msg, \
+from .qcdb import QCDB
+from .util import print_msg_error, print_msg_success, print_cmds, print_msg, \
     get_db_filename
+
 from pick import pick
+import click
 
 DB = QCDB(get_db_filename())
 

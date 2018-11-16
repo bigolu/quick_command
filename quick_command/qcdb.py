@@ -1,6 +1,7 @@
+from itertools import compress
+
 import pickledb
 from fuzzywuzzy import fuzz
-from itertools import compress
 
 
 class QCDB(object):

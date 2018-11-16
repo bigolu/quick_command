@@ -1,6 +1,7 @@
-import click
 from pathlib import Path
 import os
+
+import click
 
 
 def print_msg_success(msg):
