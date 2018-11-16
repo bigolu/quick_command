@@ -63,8 +63,3 @@ def list():
 def db():
     """print path to db"""
     print_msg(get_db_filename())
-
-
-if __name__ == '__main__':
-    """for debugging"""
-    qc()
