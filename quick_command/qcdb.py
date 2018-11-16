@@ -43,4 +43,3 @@ class QCDB(object):
             return True
 
         return False
-

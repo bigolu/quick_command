@@ -16,7 +16,7 @@ setup(name='quick_command',
           'pickledb==0.8.1',
           'python-Levenshtein==0.12.0',
       ],
-      extra_require={
+      extras_require={
           'dev': [
             'flake8',
             'rope'
