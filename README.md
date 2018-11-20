@@ -1,6 +1,8 @@
 # quick_command
 cli for remembering commands
 
+[DEMO](https://asciinema.org/a/LNYIt8pHfNmK4GFohjkdZwiOy)
+
 ## USAGE
 
 You can add commands with an optional description e.g. "tar -xv -> extract a tar file with verbose output"
