@@ -32,9 +32,8 @@ def print_cmds(lst):
 
 
 def get_db_filename():
-    db_dirname = os.getenv('QC_DB_DIR', '~')
-    db_dir = Path(db_dirname).expanduser()
-    db_file = db_dir / '.qc-commands.db'
-    db_filename = str(db_file)
+    filepath = Path(os.getenv('QC_DB_DIR', '~')
+                    ).expanduser() / '.qc-commands.db'
+    filename = str(filepath)
 
-    return db_filename
+    return filename

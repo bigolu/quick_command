@@ -30,7 +30,7 @@ def rm():
     option, index = pick(
         [cmd for cmd, _ in records],
         'choose a command to remove'
-        )
+    )
     if DB.delete(option):
         print_msg_success('removed!')
     else:
